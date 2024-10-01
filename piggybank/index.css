@@ -679,6 +679,12 @@ ion-icon[name="logo-google-playstore"]{
     .false{
         width: 250px;
     }
+    .card1{
+        width: 280px;
+    }
+    .null{
+        width: 230px;
+    }
 }
 
 
