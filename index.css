@@ -45,6 +45,7 @@ body p:not(nav p){
 body img:not(nav img) {
   opacity: 0;        
   animation: popOut 0.8s ease forwards; 
+
 }
 nav{
     width: 100%;
@@ -52,7 +53,7 @@ nav{
     position: fixed;
     z-index: 1000;
     box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.144);
-
+    /* overflow-x: hidden; */
 }
 .nav-space{
     width: 85%;
@@ -318,7 +319,10 @@ ion-icon[name="reader-outline"]{
   width: 40px;
   display: none;
   color: #122231;
+  /* border: 2px solid black; */
 }
+
+
 
 @media (max-width:1075px) {
     .nav-space{
@@ -542,11 +546,11 @@ ion-icon[name="logo-google-playstore"]{
 
 @media (max-width:476px){
   .imgs-2{
-    width: 150px;
-    height: 160px;
+    width: 190px;
+    height: 200px;
   }
   .headerIcon{
-    width: 65px;
+    width: 75px;
 }
 
 }
@@ -675,7 +679,7 @@ ion-icon[name="logo-google-playstore"]{
     margin-inline: auto;
     /* align-items: center; */
     /* border: 2px solid black; */
-    
+    overflow: hidden;
   
   }
 
@@ -980,7 +984,6 @@ background: #003399;
   .third-section{
     width: 100%;
     align-items: center;
-    width: 100%;
   }
   .card {
     width: 85%;
@@ -1054,7 +1057,7 @@ background: #003399;
   .card {
     width: 60%;
   }
-
+  
   .third-sec-cont{
       width: 80%;
   }
@@ -1127,7 +1130,7 @@ margin-inline: auto;
 
 @media (max-width:388px){
   .card {
-    width: 42%;
+    width: 50%;
   }
   .first-savings h1{
     font-size: 20px;
@@ -1881,4 +1884,3 @@ footer a:hover{
     gap: 5em;
   }
 }
-
